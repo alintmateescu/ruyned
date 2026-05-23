@@ -526,6 +526,26 @@ button {
   transform: rotate(-1deg) scale(1.02);
   box-shadow: 0 30px 80px -20px rgba(179, 18, 26, 0.55);
 }
+.feature__flag {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  z-index: 2;
+  font-family: var(--f-zine);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--void-2);
+  background: linear-gradient(90deg, var(--ember), var(--ember-2));
+  padding: 0.4rem 0.8rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4), 0 8px 24px -8px rgba(255, 106, 22, 0.8);
+  animation: pulseFlag 2.4s ease-in-out infinite;
+}
+@keyframes pulseFlag {
+  50% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4), 0 8px 34px -6px rgba(255, 106, 22, 1);
+  }
+}
 .feature__meta {
   font-family: var(--f-zine);
   color: var(--ember-2);
@@ -634,6 +654,19 @@ button {
 .teaser__card.is-bw img {
   filter: grayscale(1) contrast(1.1);
 }
+.teaser__flag {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  z-index: 2;
+  font-family: var(--f-zine);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--void-2);
+  background: linear-gradient(90deg, var(--ember), var(--ember-2));
+  padding: 0.22rem 0.5rem;
+}
 .teaser__card:hover img {
   transform: scale(1.07);
   filter: none;
@@ -709,6 +742,11 @@ button {
   color: var(--bone);
   padding: 0.3rem 0.7rem;
   border: 1px solid var(--blood-bright);
+}
+.release__badge--pre {
+  background: linear-gradient(90deg, var(--ember), var(--ember-2));
+  border-color: var(--ember-2);
+  color: var(--void-2);
 }
 .release__date {
   font-family: var(--f-zine);

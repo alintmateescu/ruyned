@@ -35,27 +35,37 @@ const render = (): string => `
 
   <section class="feature" id="latest">
     <div class="feature__art">
+      ${latestRelease.preorder ? '<span class="feature__flag">Pre-Order</span>' : ''}
       <a href="${latestRelease.bandcamp}" target="_blank" rel="noopener noreferrer"
-         aria-label="Listen to ${latestRelease.title} on Bandcamp">
+         aria-label="${latestRelease.preorder ? 'Pre-order' : 'Listen to'} ${latestRelease.title} on Bandcamp">
         <img src="${latestRelease.cover}" alt="${latestRelease.title} cover art"
              width="700" height="700" loading="lazy" />
       </a>
     </div>
     <div class="feature__body">
-      ${sectionHead('Latest Assault · ' + latestRelease.year, latestRelease.title)}
-      <p class="feature__meta">${latestRelease.type} · ${latestRelease.date}</p>
+      ${sectionHead(
+        (latestRelease.preorder ? 'Out ' + latestRelease.date : 'Latest Assault · ' + latestRelease.year),
+        latestRelease.title,
+      )}
+      <p class="feature__meta">${latestRelease.type} · ${latestRelease.date}${
+        latestRelease.label ? ' · ' + latestRelease.label : ''
+      }</p>
       <p class="feature__blurb">${latestRelease.blurb}</p>
       <ol class="tracklist tracklist--compact">
         ${latestRelease.tracks
           .map(
             (t) => `<li><span class="t-n">${String(t.n).padStart(2, '0')}</span>
               <span class="t-title">${t.title}</span>
-              <span class="t-len">${t.length}</span></li>`,
+              ${t.length ? `<span class="t-len">${t.length}</span>` : ''}</li>`,
           )
           .join('')}
       </ol>
       <div class="feature__cta">
-        ${linkBtn('Get it on Bandcamp', latestRelease.bandcamp, 'solid')}
+        ${linkBtn(
+          latestRelease.preorder ? 'Pre-order on Bandcamp' : 'Get it on Bandcamp',
+          latestRelease.bandcamp,
+          'solid',
+        )}
         <a class="btn btn--ghost" href="#/music">All releases</a>
       </div>
     </div>
@@ -78,6 +88,7 @@ const render = (): string => `
         .map(
           (r) => `
         <a class="teaser__card ${r.bw ? 'is-bw' : ''}" href="#/music" aria-label="${r.title}">
+          ${r.preorder ? '<span class="teaser__flag">Pre-Order</span>' : ''}
           <img src="${r.cover}" alt="${r.title} cover" width="700" height="700" loading="lazy" />
           <div class="teaser__cap">
             <span class="teaser__type">${r.type}</span>

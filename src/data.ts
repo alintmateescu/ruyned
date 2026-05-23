@@ -25,7 +25,7 @@ export const band = {
   bio: [
     `Forged in Timișoara in the spring of 2023, RUYNED is a three-headed engine of black, thrash and speed metal — old-school venom sharpened on a modern blade. The members first crossed paths in December 2022 and, by May 2023, had begun carving their name into the Romanian underground.`,
     `Their sound is unforced and instinctive: "we just write music that we like, and this is how we came up with our sound." Lyrically the band circles death, morbid obsession and the unravelling of the mind — blunt, ugly and unrepentant.`,
-    `The self-released demo Morbid Pleasures landed in September 2023. The debut full-length Eternal Torment followed in July 2024 to warm reception from crowds and press alike, with the Sex'n Speed assault arriving in May 2025.`,
+    `The self-released demo Morbid Pleasures landed in September 2023. The debut full-length Eternal Torment followed in July 2024 to warm reception from crowds and press alike, with the Sex'n Speed assault arriving in May 2025. Their Osmose Productions debut, Profanum Sacrificium — a concept record on the European witch hunts — descends June 26, 2026.`,
   ],
 }
 
@@ -65,7 +65,7 @@ export const members: Member[] = [
 export interface Track {
   n: number
   title: string
-  length: string
+  length?: string // omitted for unreleased / pre-order titles without timings
 }
 
 export interface Release {
@@ -79,9 +79,36 @@ export interface Release {
   tracks: Track[]
   bandcamp: string
   bw?: boolean // mostly black & white artwork — used to tint the card frame
+  preorder?: boolean // not out yet — show as pre-order
+  label?: string // releasing label, when notable
 }
 
 export const releases: Release[] = [
+  {
+    id: 'profanum-sacrificium',
+    title: 'Profanum Sacrificium',
+    type: 'Album',
+    year: '2026',
+    date: 'June 26, 2026',
+    cover: asset('covers/profanum-sacrificium.jpg'),
+    blurb:
+      'A blasphemous speed metal assault laced with black, thrash and heavy metal — the first half raw violence and decadence, the second a conceptual descent into the European witch hunts of the 15th–17th centuries. The Osmose Productions debut.',
+    bandcamp: 'https://osmoseproductions.bandcamp.com/album/profanum-sacrificium',
+    preorder: true,
+    label: 'Osmose Productions',
+    tracks: [
+      { n: 1, title: 'Intro' },
+      { n: 2, title: 'Speedchain' },
+      { n: 3, title: "Sex'n Speed" },
+      { n: 4, title: 'Sex Commander 666' },
+      { n: 5, title: 'Orgasm Through Death' },
+      { n: 6, title: 'Daemonis Ritualis' },
+      { n: 7, title: 'Profanum Sacrificium' },
+      { n: 8, title: 'Malleus Maleficarum' },
+      { n: 9, title: 'Witches Gallöw' },
+      { n: 10, title: 'Outro' },
+    ],
+  },
   {
     id: 'sexn-speed',
     title: "Sex'n Speed",
