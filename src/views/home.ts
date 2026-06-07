@@ -66,6 +66,15 @@ const render = (): string => `
           latestRelease.bandcamp,
           'solid',
         )}
+        ${
+          latestRelease.preorder
+            ? linkBtn(
+                'Pre-order on headbangershop.ro',
+                'https://www.headbangershop.ro/?s=Ruyned+Profanum+Sacrificium&post_type=product&dgwt_wcas=1',
+                'solid',
+              )
+            : ''
+        }
         <a class="btn btn--ghost" href="#/music">All releases</a>
       </div>
     </div>
