@@ -39,7 +39,7 @@ export interface Member {
 export const members: Member[] = [
   {
     name: 'Bogdan Mateescu',
-    role: 'Lead Guitar · Vocals',
+    role: 'Guitars · Vocals',
     influences: ['Bütcher', 'Hellripper', 'Cruel Force', 'Sabbat', 'Midnight', 'Kreator', 'Bathory'],
   },
   {
