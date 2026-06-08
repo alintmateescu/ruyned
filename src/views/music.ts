@@ -33,7 +33,7 @@ const releaseBlock = (r: Release, i: number): string => `
           .join('')}
       </ol>
       <div class="release__cta">
-        ${linkBtn(r.preorder ? 'Pre-order' : 'Listen / Buy', r.bandcamp, 'solid')}
+        ${linkBtn(r.preorder ? 'Pre-order' : r.listenOnly ? 'Listen' : 'Listen / Buy', r.bandcamp, 'solid')}
       </div>
     </div>
   </article>`

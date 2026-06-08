@@ -19,7 +19,7 @@ export const footerHTML = (): string => `
     </nav>
 
     <p class="footer__legal">
-      ${band.city}, ${band.country} · ${band.label} · MMXXIII—${year}
+      ${band.country} · ${band.label} · MMXXIII—${year}
       <br />
       © ${year} ${band.name}. All artwork © its respective creators. Fan-built tribute site.
     </p>

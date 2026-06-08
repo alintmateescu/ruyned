@@ -9,7 +9,7 @@ export const navItems: NavItem[] = [
   { label: 'Home', path: '/' },
   { label: 'Music', path: '/music' },
   { label: 'Band', path: '/band' },
-  { label: 'Live', path: '/live' },
+  { label: 'Shows', path: '/live' },
   { label: 'Contact', path: '/contact' },
 ]
 

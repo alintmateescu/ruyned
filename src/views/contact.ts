@@ -36,9 +36,10 @@ const render = (): string => `
 
     <div class="booking">
       <h3>Booking & Contact</h3>
-      <p>For shows, distro and unholy alliances, reach out through any of the channels above —
-        messages via Instagram or Facebook reach the band directly.</p>
-      <p class="booking__sig">${band.name} · ${band.city}, ${band.country} · ${band.label}</p>
+      <p>For shows, distro and unholy alliances:
+        <a class="booking__email" href="mailto:ruynedband@gmail.com">ruynedband@gmail.com</a> —
+        or message the band directly via Instagram or Facebook.</p>
+      <p class="booking__sig">${band.name} · ${band.country} · ${band.label}</p>
     </div>
   </div>
 `

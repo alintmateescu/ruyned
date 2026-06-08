@@ -11,7 +11,6 @@ export const asset = (p: string): string =>
 export const band = {
   name: 'RUYNED',
   genre: 'Black / Thrash / Speed Metal',
-  city: 'Timișoara',
   country: 'Romania',
   formed: 'March 19, 2023',
   foundedRoman: 'MMXXIII',
@@ -23,7 +22,7 @@ export const band = {
   hero: asset('hero.jpg'),
   tagline: 'Romanian Speed Metal Assault',
   bio: [
-    `Forged in Timișoara in the spring of 2023, RUYNED is a three-headed engine of black, thrash and speed metal — old-school venom sharpened on a modern blade. The members first crossed paths in December 2022 and, by May 2023, had begun carving their name into the Romanian underground.`,
+    `Forged in Romania in the spring of 2023, RUYNED is a three-headed engine of black, thrash and speed metal — old-school venom sharpened on a modern blade. The members first crossed paths in December 2022 and, by May 2023, had begun carving their name into the Romanian underground.`,
     `Their sound is unforced and instinctive: "we just write music that we like, and this is how we came up with our sound." Lyrically the band circles death, morbid obsession and the unravelling of the mind — blunt, ugly and unrepentant.`,
     `The self-released demo Morbid Pleasures landed in September 2023. The debut full-length Eternal Torment followed in July 2024 to warm reception from crowds and press alike, with the Sex'n Speed assault arriving in May 2025. Their Osmose Productions debut, Profanum Sacrificium — a concept record on the European witch hunts — descends June 26, 2026.`,
   ],
@@ -167,8 +166,24 @@ export interface Show {
   city: string
 }
 
-/** Documented live appearances. Future dates are intentionally not invented. */
-export const shows: Show[] = [
+/** Announced upcoming shows. */
+export const upcomingShows: Show[] = [
+  {
+    date: 'Aug 22, 2026',
+    billing: 'Live',
+    venue: 'Phoenix Club',
+    city: 'Constanța, RO',
+  },
+  {
+    date: 'Aug 28, 2026',
+    billing: 'Open Air Festival',
+    venue: 'Helhammer Open Air',
+    city: 'Belgrade, RS',
+  },
+]
+
+/** Documented past appearances. Full archive is still being compiled. */
+export const pastShows: Show[] = [
   {
     date: 'Jan 2024',
     billing: 'Support — Impaled Nazarene',
