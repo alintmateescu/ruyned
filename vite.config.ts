@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 // Project is published as a GitHub Pages *project* site at
 // https://<user>.github.io/ruyned/ — hence the base path below.
 // If you fork/rename the repo, change `base` to "/<repo-name>/".
-const BASE = '/ruyned/'
+const BASE = '/'
 
 export default defineConfig({
   base: BASE,
