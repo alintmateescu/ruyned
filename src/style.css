@@ -803,32 +803,17 @@ button {
   padding: 0.1em 0.12em 0 0;
   color: var(--blood-bright);
 }
-.band-facts {
+.band-figure {
+  margin: 0;
   border: 1px solid var(--line);
   background: var(--panel);
-  padding: 1.4rem 1.6rem;
+  padding: 0.5rem;
 }
-.fact {
-  display: grid;
-  gap: 0.1rem;
-  padding: 0.7rem 0;
-  border-bottom: 1px dashed var(--line);
-}
-.fact:last-child {
-  border-bottom: 0;
-}
-.fact dt {
-  font-family: var(--f-zine);
-  font-size: 0.68rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--ash);
-}
-.fact dd {
-  font-family: var(--f-impact);
-  font-size: 1.1rem;
-  letter-spacing: 0.02em;
-  color: var(--bone);
+.band-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(1) contrast(1.05);
 }
 
 .lineup__grid {
@@ -865,33 +850,12 @@ button {
   color: var(--ember-2);
   margin-bottom: 1rem;
 }
-.member__inf {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-.member__inf li {
-  font-family: var(--f-zine);
-  font-size: 0.68rem;
-  letter-spacing: 0.05em;
-  color: var(--bone-dim);
-  border: 1px solid var(--line);
-  padding: 0.18rem 0.5rem;
-}
 .member__note {
   margin-top: 0.8rem;
   font-family: var(--f-zine);
   font-size: 0.78rem;
   color: var(--ash);
 }
-.lineup__foot {
-  text-align: center;
-  color: var(--bone-dim);
-  max-width: 60ch;
-  margin: 1.8rem auto 0;
-  font-size: 0.95rem;
-}
-
 /* ============================================================
    LIVE
    ============================================================ */

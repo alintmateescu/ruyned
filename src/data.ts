@@ -53,13 +53,6 @@ export const members: Member[] = [
     role: 'Drums',
     influences: ['Sarcófago', 'Discharge', 'Slayer', 'Dream Theater', 'Bütcher', 'Suicidal Tendencies', 'G.I.S.M.'],
   },
-  {
-    name: 'Andrei Crisan',
-    role: 'Guitar',
-    influences: [],
-    former: true,
-    note: 'Departed August 2024.',
-  },
 ]
 
 export interface Track {
@@ -81,6 +74,7 @@ export interface Release {
   bw?: boolean // mostly black & white artwork — used to tint the card frame
   preorder?: boolean // not out yet — show as pre-order
   label?: string // releasing label, when notable
+  listenOnly?: boolean // show a single "Listen" CTA instead of "Listen / Buy"
 }
 
 export const releases: Release[] = [
@@ -93,7 +87,7 @@ export const releases: Release[] = [
     cover: asset('covers/profanum-sacrificium.jpg'),
     blurb:
       'A blasphemous speed metal assault laced with black, thrash and heavy metal — the first half raw violence and decadence, the second a conceptual descent into the European witch hunts of the 15th–17th centuries. The Osmose Productions debut.',
-    bandcamp: 'https://osmoseproductions.bandcamp.com/album/profanum-sacrificium',
+    bandcamp: 'https://www.osmoseproductions.com/liste/index.cfm?what=all&lng=2&tete=ruyned',
     preorder: true,
     label: 'Osmose Productions',
     tracks: [
@@ -112,7 +106,7 @@ export const releases: Release[] = [
   {
     id: 'sexn-speed',
     title: "Sex'n Speed",
-    type: 'Album',
+    type: 'Demo',
     year: '2025',
     date: 'May 15, 2025',
     cover: asset('covers/sexn-speed.jpg'),
@@ -124,17 +118,6 @@ export const releases: Release[] = [
       { n: 2, title: "Sex'n Speed", length: '3:05' },
       { n: 3, title: 'Profanum Sacrificium', length: '2:54' },
     ],
-  },
-  {
-    id: 'fleshripper',
-    title: 'Fleshripper',
-    type: 'Single',
-    year: '2024',
-    date: '2024',
-    cover: asset('covers/eternal-torment.jpg'),
-    blurb: 'The cut that tears straight off Eternal Torment.',
-    bandcamp: 'https://ruyned.bandcamp.com/track/fleshripper-2',
-    tracks: [{ n: 1, title: 'Fleshripper', length: '2:29' }],
   },
   {
     id: 'eternal-torment',
@@ -165,8 +148,9 @@ export const releases: Release[] = [
     year: '2023',
     date: 'September 22, 2023',
     cover: asset('covers/morbid-pleasures.jpg'),
-    blurb: 'The first self-released demo — where it all began.',
+    blurb: 'The first self-released demo.',
     bandcamp: 'https://ruyned.bandcamp.com/album/morbid-pleasures-demo',
+    listenOnly: true,
     tracks: [
       { n: 1, title: 'Intro', length: '0:50' },
       { n: 2, title: 'Impaled', length: '3:02' },
