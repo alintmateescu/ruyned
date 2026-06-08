@@ -27,7 +27,7 @@
   --f-display: 'UnifrakturCook', 'Times New Roman', serif;
   --f-impact: 'Anton', 'Arial Narrow', sans-serif;
   --f-zine: 'Special Elite', 'Courier New', monospace;
-  --f-body: 'Oswald', 'Helvetica Neue', sans-serif;
+  --f-body: 'Barlow Condensed', 'Helvetica Neue', sans-serif;
 
   --max: 1180px;
   --gut: clamp(1.1rem, 4vw, 3.5rem);
