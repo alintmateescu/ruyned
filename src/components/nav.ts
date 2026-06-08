@@ -16,7 +16,7 @@ export const navItems: NavItem[] = [
 export const navHTML = (): string => `
   <header class="nav" id="nav">
     <a class="nav__brand" href="#/" aria-label="RUYNED — home">
-      <img src="${band.logoMark}" alt="RUYNED" width="863" height="327" />
+      <img src="${band.logoMark}" alt="RUYNED" width="3000" height="1075" />
     </a>
 
     <button class="nav__toggle" type="button" aria-label="Toggle menu" aria-expanded="false">

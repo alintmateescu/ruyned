@@ -6,7 +6,6 @@ const tickerItems = [
   'BLACK',
   'THRASH',
   'SPEED',
-  band.city.toUpperCase(),
   'ROMANIA',
   band.foundedRoman,
   'NO MERCY',
@@ -18,9 +17,8 @@ const render = (): string => `
     <div class="hero__veil" aria-hidden="true"></div>
 
     <div class="hero__inner">
-      <p class="hero__kicker">${band.genre} — ${band.city}, ${band.country}</p>
       <img class="hero__logo" src="${band.logoMark}" alt="RUYNED"
-           width="863" height="327" fetchpriority="high" />
+           width="3000" height="1075" fetchpriority="high" />
       <p class="hero__tagline">${band.tagline} — est. ${band.foundedRoman}</p>
       <div class="hero__cta">
         ${linkBtn('Listen', latestRelease.bandcamp, 'solid')}
