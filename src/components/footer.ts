@@ -21,6 +21,6 @@ export const footerHTML = (): string => `
     <p class="footer__legal">
       ${band.country} · ${band.label} · MMXXIII—${year}
       <br />
-      © ${year} ${band.name}. All artwork © its respective creators. Fan-built tribute site.
+      © ${year} ${band.name}. All artwork © its respective creators.
     </p>
   </footer>`
