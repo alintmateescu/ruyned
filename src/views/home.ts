@@ -21,7 +21,7 @@ const render = (): string => `
            width="3000" height="1075" fetchpriority="high" />
       <p class="hero__tagline">${band.tagline} — est. ${band.foundedRoman}</p>
       <div class="hero__cta">
-        ${linkBtn('Listen', latestRelease.bandcamp, 'solid')}
+        ${linkBtn('Listen', 'https://open.spotify.com/artist/05h5BfOz6eeltzw1Ewl8U5', 'solid')}
         <a class="btn btn--ghost" href="#/music">Discography</a>
         <a class="btn btn--ghost" href="#/live">Live Raids</a>
       </div>
