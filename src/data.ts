@@ -87,7 +87,7 @@ export const releases: Release[] = [
     blurb:
       'A blasphemous speed metal assault laced with black, thrash and heavy metal — the first half raw violence and decadence, the second a conceptual descent into the European witch hunts of the 15th–17th centuries. The Osmose Productions debut.',
     bandcamp: 'https://www.osmoseproductions.com/liste/index.cfm?what=all&lng=2&tete=ruyned',
-    preorder: true,
+    preorder: false,
     label: 'Osmose Productions',
     tracks: [
       { n: 1, title: 'Intro' },
