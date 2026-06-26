@@ -60,19 +60,15 @@ const render = (): string => `
       </ol>
       <div class="feature__cta">
         ${linkBtn(
-          latestRelease.preorder ? 'Pre-order on Bandcamp' : 'Get it on Bandcamp',
+          'Order at Bandcamp',
           latestRelease.bandcamp,
           'solid',
         )}
-        ${
-          latestRelease.preorder
-            ? linkBtn(
-                'Pre-order on headbangershop.ro',
-                'https://www.headbangershop.ro/?s=Ruyned+Profanum+Sacrificium&post_type=product&dgwt_wcas=1',
-                'solid',
-              )
-            : ''
-        }
+        ${linkBtn(
+  'Order at Headbangershop.ro',
+  'https://www.headbangershop.ro/?s=Ruyned+Profanum+Sacrificium&post_type=product&dgwt_wcas=1',
+  'solid',
+)}
         <a class="btn btn--ghost" href="#/music">All releases</a>
       </div>
     </div>
