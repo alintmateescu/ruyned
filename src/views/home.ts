@@ -69,6 +69,11 @@ const render = (): string => `
   'https://www.headbangershop.ro/?s=Ruyned+Profanum+Sacrificium&post_type=product&dgwt_wcas=1',
   'solid',
 )}
+${linkBtn(
+  'Order at Osmose',
+  'https://www.osmoseproductions.com/liste/index.cfm?what=all&lng=2&tete=ruyned',
+  'solid',
+)}
         <a class="btn btn--ghost" href="#/music">All releases</a>
       </div>
     </div>
