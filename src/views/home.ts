@@ -79,6 +79,26 @@ ${linkBtn(
     </div>
   </section>
 
+  <section class="press">
+  ${sectionHead('As heard by', 'Press')}
+  <div class="press__grid">
+    <blockquote class="press__item">
+      <p>&ldquo;Plays thrash the way the old school intended&mdash;at furious speeds with the subtlety of an uppercut to the jawbone.&rdquo;</p>
+      <a href="https://www.angrymetalguy.com/ruyned-profanum-sacrificium-review/" target="_blank" rel="noopener noreferrer" class="press__source">Angry Metal Guy</a>
+    </blockquote>
+    <blockquote class="press__item">
+      <p>&ldquo;The two halves of &lsquo;Profanum Sacrificium&rsquo; compliment one another in linear progression wherein the scale and cruelty of the killing portrayed lines up with the riff count.&rdquo;</p>
+      <a href="https://mystificationzine.com/2026/06/19/ruyned-profanum-sacrificium-2026-review/" target="_blank" rel="noopener noreferrer" class="press__source">Mystification Zine</a>
+    </blockquote>
+    <a href="https://www.instagram.com/reel/DZqI6mVJ5BQ/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Deaf Sparrow &mdash; Review</a>
+  </div>
+  ${sectionHead('Recognition', 'Features')}
+  <ul class="press__features">
+    <li><a href="https://www.facebook.com/thrashmania666/posts/pfbid0264hsx66FThj2yCWQjanqqkBd3qUriVRXWT9FXcLp42VBW8dkkDN5ifTnzS2LmUQfl" target="_blank" rel="noopener noreferrer">Thrashmania\m/ &mdash; Top 20 Albums of First Half of 2026</a></li>
+    <li><a href="https://antichrist-magazine.bandcamp.com/album/antichrist-magazine-vol-vi" target="_blank" rel="noopener noreferrer">Antichrist Magazine &mdash; Compilation Vol. VI</a></li>
+  </ul>
+</section>
+
   ${divider()}
 
   <section class="manifesto">
