@@ -1145,3 +1145,62 @@ button {
     transform: none;
   }
 }
+/* ---- press section ---- */
+.press {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: var(--gut) var(--gut);
+}
+
+.press__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.press__item {
+  border-left: 2px solid var(--blood);
+  padding: 0.75rem 1rem;
+  margin: 0;
+  background: rgba(179,18,26,0.05);
+}
+
+.press__item p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.press__source {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--blood);
+  text-decoration: none;
+  font-family: var(--f-impact);
+}
+
+.press__features {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.press__features li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(236,227,210,0.1);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: var(--f-impact);
+}
+
+.press__features li a {
+  color: var(--bone);
+  text-decoration: none;
+}
+
+.press__features li a:hover {
+  color: var(--blood);
+}
