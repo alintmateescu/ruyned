@@ -94,7 +94,7 @@ ${linkBtn(
   </div>
   ${sectionHead('Recognition', 'Features')}
   <ul class="press__features">
-    <li><a href="https://www.facebook.com/thrashmania666/posts/pfbid0264hsx66FThj2yCWQjanqqkBd3qUriVRXWT9FXcLp42VBW8dkkDN5ifTnzS2LmUQfl" target="_blank" rel="noopener noreferrer">>Thrashmania&#92;m/ &mdash; Top 20 Albums of First Half of 2026</a></li>
+    <li><a href="https://www.facebook.com/thrashmania666/posts/pfbid0264hsx66FThj2yCWQjanqqkBd3qUriVRXWT9FXcLp42VBW8dkkDN5ifTnzS2LmUQfl" target="_blank" rel="noopener noreferrer">>Thrashmania&#92;m/ &mdash; The Top 100 Thrash Metal Albums of the 1st Half of 2026</a></li>
     <li><a href="https://antichrist-magazine.bandcamp.com/album/antichrist-magazine-vol-vi" target="_blank" rel="noopener noreferrer">Antichrist Magazine &mdash; Compilation Vol. VI</a></li>
   </ul>
 </section>
