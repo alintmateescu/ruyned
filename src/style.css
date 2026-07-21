@@ -1148,8 +1148,8 @@ button {
 /* ---- press section ---- */
 .press {
   max-width: var(--max);
-  margin: 0 auto;
-  padding: var(--gut) var(--gut);
+  margin: clamp(3rem, 8vw, 6rem) auto;
+  padding: 0 var(--gut);
 }
 
 .press__grid {
