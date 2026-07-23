@@ -90,6 +90,10 @@ ${linkBtn(
       <p>&ldquo;The two halves of &lsquo;Profanum Sacrificium&rsquo; compliment one another in linear progression wherein the scale and cruelty of the killing portrayed lines up with the riff count.&rdquo;</p>
       <a href="https://mystificationzine.com/2026/06/19/ruyned-profanum-sacrificium-2026-review/" target="_blank" rel="noopener noreferrer" class="press__source">Mystification Zine</a>
     </blockquote>
+    <blockquote class="press__item">
+  <p>&ldquo;... trupa din Timi&#537;oara face parte din categoria restr&acirc;ns&#259; a forma&#539;iilor rom&acirc;ne&#537;ti de thrash metal care pot sta f&#259;r&#259; complexe al&#259;turi de multe dintre numele actuale ale scenei interna&#539;ionale.&rdquo;</p>
+  <a href="https://metalfan.ro/2026/07/21/ruyned-profanum-sacrificium/" target="_blank" rel="noopener noreferrer" class="press__source">MetalFan</a>
+</blockquote>
     <a href="https://www.instagram.com/reel/DZqI6mVJ5BQ/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Deaf Sparrow &mdash; Review</a>
   </div>
   ${sectionHead('Recognition', 'Features')}
