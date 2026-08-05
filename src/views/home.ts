@@ -91,6 +91,10 @@ ${linkBtn(
       <a href="https://mystificationzine.com/2026/06/19/ruyned-profanum-sacrificium-2026-review/" target="_blank" rel="noopener noreferrer" class="press__source">Mystification Zine</a>
     </blockquote>
     <blockquote class="press__item">
+  <p>&ldquo;Incredibly believable, pure, genuine and completely authentic. Pull that old denim vest out of the closet and plug in your cassette player!&rdquo;</p>
+  <a href="https://www.deadlystormzine.com/2026/07/recenzereview-ruyned-profanum.html" target="_blank" rel="noopener noreferrer" class="press__source">Deadly Storm Zine</a>
+</blockquote>
+    <blockquote class="press__item">
   <p>&ldquo;... trupa din Timi&#537;oara face parte din categoria restr&acirc;ns&#259; a forma&#539;iilor rom&acirc;ne&#537;ti de thrash metal care pot sta f&#259;r&#259; complexe al&#259;turi de multe dintre numele actuale ale scenei interna&#539;ionale.&rdquo;</p>
   <a href="https://metalfan.ro/2026/07/21/ruyned-profanum-sacrificium/" target="_blank" rel="noopener noreferrer" class="press__source">MetalFan</a>
 </blockquote>
