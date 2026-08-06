@@ -180,6 +180,13 @@ export const upcomingShows: Show[] = [
     venue: 'Helhammer Open Air',
     city: 'Belgrade, RS',
   },
+  {
+  date: 'Sep 9, 2026',
+  billing: 'w/ Sarcófago',
+  venue: 'Club Flying Circus',
+  city: 'Cluj-Napoca, RO',
+  url: 'https://fb.me/e/6hGmCq04H',
+},
 ]
 
 /** Documented past appearances. Full archive is still being compiled. */
