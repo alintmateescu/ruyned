@@ -164,6 +164,7 @@ export interface Show {
   billing: string
   venue: string
   city: string
+  url?: string
 }
 
 /** Announced upcoming shows. */
@@ -185,6 +186,7 @@ export const upcomingShows: Show[] = [
   billing: 'w/ Sarcófago',
   venue: 'Club Flying Circus',
   city: 'Cluj-Napoca, RO',
+  url: 'https://fb.me/e/6hGmCq04H',
 },
 ]
 
