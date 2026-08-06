@@ -174,12 +174,14 @@ export const upcomingShows: Show[] = [
     billing: 'Live',
     venue: 'Phoenix Club',
     city: 'Constanța, RO',
+    url: 'https://www.facebook.com/events/1054962650224626/',
   },
   {
     date: 'Aug 28, 2026',
     billing: 'Open Air Festival',
     venue: 'Helhammer Open Air',
     city: 'Belgrade, RS',
+    url: 'https://fb.me/e/7HDgligaP',
   },
   {
   date: 'Sep 9, 2026',
