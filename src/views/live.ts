@@ -4,12 +4,12 @@ import type { RouteDef } from '../lib/router'
 
 const social = links.filter((l) => l.kind === 'social')
 
-const showItem = (s: { date: string; billing: string; venue: string; city: string }): string => `
+const showItem = (s: { date: string; billing: string; venue: string; city: string; url?: string }): string => `
   <li class="show">
     <span class="show__date">${s.date}</span>
     <span class="show__main">
       <span class="show__billing">${s.billing}</span>
-      <span class="show__venue">${s.venue}</span>
+      ${s.url ? `<a class="show__venue" href="${s.url}" target="_blank" rel="noopener noreferrer">${s.venue}</a>` : `<span class="show__venue">${s.venue}</span>`}
     </span>
     <span class="show__city">${s.city}</span>
   </li>`
