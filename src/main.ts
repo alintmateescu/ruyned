@@ -1,5 +1,6 @@
 import './style.css'
 import { createRouter, type Routes } from './lib/router'
+import { initServiceWorker } from './lib/sw'
 import { navHTML, initNav, setActiveNav } from './components/nav'
 import { footerHTML } from './components/footer'
 import { home } from './views/home'
@@ -38,3 +39,6 @@ createRouter({
   titleBase: `${band.name} · ${band.genre}`,
   onNavigate: setActiveNav,
 })
+
+// Keeps returning visitors on the newest deploy — see src/lib/sw.ts.
+initServiceWorker()
