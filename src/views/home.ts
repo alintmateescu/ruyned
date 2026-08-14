@@ -84,6 +84,10 @@ ${linkBtn(
   <p class="press__interview-label">Featured Interview</p>
   <a href="https://metalfan.ro/2026/08/11/interviu-ruyned-sexn-speed-is-all-you-need/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Sex&rsquo;n Speed Is All You Need &mdash; Metalfan.ro &rarr;</a>
 </div>
+<div class="press__interview">
+  <p class="press__interview-label">Featured Interview</p>
+  <a href="https://metalfan.ro/2026/08/11/interviu-ruyned-sexn-speed-is-all-you-need/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Sex&rsquo;n Speed Is All You Need &mdash; Metalfan.ro &rarr;</a>
+</div>
   ${sectionHead('As heard by', 'Press')}
   <div class="press__grid">
     <blockquote class="press__item">
