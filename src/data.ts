@@ -170,19 +170,23 @@ export interface Show {
 /** Announced upcoming shows. */
 export const upcomingShows: Show[] = [
   {
-    date: 'Aug 22, 2026',
-    billing: 'Live',
-    venue: 'Phoenix Club',
-    city: 'Constanța, RO',
-    url: 'https://www.facebook.com/events/1028043460006566/',
-  },
-  {
-    date: 'Aug 28, 2026',
-    billing: 'Open Air Festival',
-    venue: 'Hellhammer Open Air',
-    city: 'Belgrade, RS',
-    url: 'https://www.facebook.com/events/780463091543508/',
-  },
+  date: 'Sep 18, 2026',
+  billing: 'Metal Bunker XIV',
+  venue: 'Casa de Cultura a Studentilor',
+  city: 'Craiova, RO',
+  url: 'https://www.iabilet.ro/bilete-craiova-metal-bunker-xiv-130447/',
+},
+{
+  date: 'Nov 13, 2026',
+  billing: 'Spears of Wallachia Festival II',
+  venue: 'Club Quantic',
+  city: 'Bucharest, RO',
+  url: 'https://www.facebook.com/events/905262568885134',
+},
+]
+
+/** Documented past appearances. Full archive is still being compiled. */
+export const pastShows: Show[] = [
   {
   date: 'Sep 9, 2026',
   billing: 'w/ Sarcófago',
@@ -190,10 +194,20 @@ export const upcomingShows: Show[] = [
   city: 'Cluj-Napoca, RO',
   url: 'https://fb.me/e/6hGmCq04H',
 },
-]
-
-/** Documented past appearances. Full archive is still being compiled. */
-export const pastShows: Show[] = [
+  {
+    date: 'Aug 28, 2026',
+    billing: 'Open Air Festival [FESTIVAL CANCELLED]',
+    venue: 'Hellhammer Open Air',
+    city: 'Belgrade, RS',
+    url: 'https://www.facebook.com/events/780463091543508/',
+  },
+  {
+    date: 'Aug 22, 2026',
+    billing: 'Live',
+    venue: 'Phoenix Club',
+    city: 'Constanța, RO',
+    url: 'https://www.facebook.com/events/1028043460006566/',
+  },  
   {
     date: 'Jan 2024',
     billing: 'Support — Impaled Nazarene',
