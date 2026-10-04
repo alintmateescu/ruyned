@@ -176,6 +176,13 @@ export const upcomingShows: Show[] = [
   city: 'Bucharest, RO',
   url: 'https://www.facebook.com/events/905262568885134',
 },
+    {
+    date: 'Nov 20, 2026',
+    billing: 'Album Presentation w/ Chainstruck',
+    venue: 'Nemesis Art Club',
+    city: 'Timișoara, RO',
+    url: 'https://fb.me/e/aqlQ7199o',
+  },
 ]
 
 /** Documented past appearances. Full archive is still being compiled. */
