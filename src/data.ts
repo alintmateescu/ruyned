@@ -170,13 +170,6 @@ export interface Show {
 /** Announced upcoming shows. */
 export const upcomingShows: Show[] = [
   {
-  date: 'Sep 18, 2026',
-  billing: 'Metal Bunker XIV',
-  venue: 'Casa de Cultura a Studentilor',
-  city: 'Craiova, RO',
-  url: 'https://www.iabilet.ro/bilete-craiova-metal-bunker-xiv-130447/',
-},
-{
   date: 'Nov 13, 2026',
   billing: 'Spears of Wallachia Festival II',
   venue: 'Club Quantic',
@@ -187,6 +180,13 @@ export const upcomingShows: Show[] = [
 
 /** Documented past appearances. Full archive is still being compiled. */
 export const pastShows: Show[] = [
+  {
+  date: 'Sep 18, 2026',
+  billing: 'Metal Bunker XIV',
+  venue: 'Casa de Cultura a Studentilor',
+  city: 'Craiova, RO',
+  url: 'https://www.iabilet.ro/bilete-craiova-metal-bunker-xiv-130447/',
+},
   {
   date: 'Sep 9, 2026',
   billing: 'w/ Sarcófago',
