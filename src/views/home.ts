@@ -81,11 +81,11 @@ ${linkBtn(
 
   <section class="press">
   ${sectionHead('Featured', 'Interviews')}
+      <a href="https://dinintunerec.com/2026/09/28/interview-ruyned-on-profanum-sacrificium-osmose-productions-and-their-appearance-at-spears-of-wallachia-festival-ii/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Profanum Sacrificium, Osmose &amp; Spears of Wallachia &mdash; Din &Icirc;ntunerec &rarr;</a>
+      <a href="https://metalfan.ro/2026/08/11/interviu-ruyned-sexn-speed-is-all-you-need/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Sex&rsquo;n Speed Is All You Need &mdash; Metalfan.ro &rarr;</a>
       <div class="press__interview" style="display:flex;flex-direction:column;align-items:flex-start;gap:0.75rem">
-        <a href="https://metalsinterviewsworldwide.wordpress.com/2026/06/11/interview-ruyned/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Interview &mdash; Metal Interviews Worldwide &rarr;</a>
-    <a href="https://metalfan.ro/2026/08/11/interviu-ruyned-sexn-speed-is-all-you-need/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Sex&rsquo;n Speed Is All You Need &mdash; Metalfan.ro &rarr;</a>
-          <a href="https://dinintunerec.com/2026/09/28/interview-ruyned-on-profanum-sacrificium-osmose-productions-and-their-appearance-at-spears-of-wallachia-festival-ii/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Profanum Sacrificium, Osmose &amp; Spears of Wallachia &mdash; Din &Icirc;ntunerec &rarr;</a>
-  </div>
+      <a href="https://metalsinterviewsworldwide.wordpress.com/2026/06/11/interview-ruyned/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Interview &mdash; Metal Interviews Worldwide &rarr;</a>
+          </div>
   ${sectionHead('As heard by', 'Press')}
   <div class="press__grid">
     <blockquote class="press__item">
