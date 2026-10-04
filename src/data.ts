@@ -171,20 +171,20 @@ export interface Show {
 export const upcomingShows: Show[] = [
     {
     date: 'Apr 2, 2027',
-    billing: 'TBA',
+    billing: 'Spring Tour 2027',
     venue: 'Collosseum',
     city: 'Košice, SK',
   },
   {
     date: 'Apr 3, 2027',
-    billing: 'TBA',
+    billing: 'Spring Tour 2027',
     venue: 'Metal Cave',
     city: 'Warsaw, PL',
   },
   {
     date: 'Apr 4, 2027',
-    billing: 'TBA',
-    venue: 'Pub Korba',
+    billing: 'Spring Tour 2027',
+    venue: 'Klub Muzyczny Faust (Pub Korba)',
     city: 'Katowice, PL',
   },
   {
