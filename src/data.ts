@@ -170,6 +170,20 @@ export interface Show {
 /** Announced upcoming shows. */
 export const upcomingShows: Show[] = [
     {
+  date: 'Nov 13, 2026',
+  billing: 'Spears of Wallachia Festival II',
+  venue: 'Club Quantic',
+  city: 'Bucharest, RO',
+  url: 'https://www.facebook.com/events/905262568885134',
+},
+    {
+    date: 'Nov 20, 2026',
+    billing: 'Album Presentation w/ Chainstruck',
+    venue: 'Nemesis Art Club',
+    city: 'Timișoara, RO',
+    url: 'https://fb.me/e/aqlQ7199o',
+  },
+  {
     date: 'Apr 2, 2027',
     billing: 'Spring Tour 2027',
     venue: 'Collosseum',
@@ -186,20 +200,6 @@ export const upcomingShows: Show[] = [
     billing: 'Spring Tour 2027',
     venue: 'Klub Muzyczny Faust (Pub Korba)',
     city: 'Katowice, PL',
-  },
-  {
-  date: 'Nov 13, 2026',
-  billing: 'Spears of Wallachia Festival II',
-  venue: 'Club Quantic',
-  city: 'Bucharest, RO',
-  url: 'https://www.facebook.com/events/905262568885134',
-},
-    {
-    date: 'Nov 20, 2026',
-    billing: 'Album Presentation w/ Chainstruck',
-    venue: 'Nemesis Art Club',
-    city: 'Timișoara, RO',
-    url: 'https://fb.me/e/aqlQ7199o',
   },
 ]
 
