@@ -169,6 +169,24 @@ export interface Show {
 
 /** Announced upcoming shows. */
 export const upcomingShows: Show[] = [
+    {
+    date: 'Apr 2, 2027',
+    billing: 'TBA',
+    venue: 'Collosseum',
+    city: 'Košice, SK',
+  },
+  {
+    date: 'Apr 3, 2027',
+    billing: 'TBA',
+    venue: 'Metal Cave',
+    city: 'Warsaw, PL',
+  },
+  {
+    date: 'Apr 4, 2027',
+    billing: 'TBA',
+    venue: 'Pub Korba',
+    city: 'Katowice, PL',
+  },
   {
   date: 'Nov 13, 2026',
   billing: 'Spears of Wallachia Festival II',
