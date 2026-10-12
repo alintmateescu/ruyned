@@ -89,7 +89,7 @@ ${linkBtn(
   ${sectionHead('As heard by', 'Press')}
   <div class="press__grid">
     <blockquote class="press__item">
-      <p>&ldquo;Plays thrash the way the old school intended&mdash;at furious speeds with the subtlety of an uppercut to the jawbone.&rdquo;</p>
+      <p>&ldquo;After several listens through Profanum Sacrificium, I&rsquo;m convinced Ruyned can write first-class thrash.&rdquo;</p>
       <a href="https://www.angrymetalguy.com/ruyned-profanum-sacrificium-review/" target="_blank" rel="noopener noreferrer" class="press__source">Angry Metal Guy</a>
     </blockquote>
     <blockquote class="press__item">
@@ -111,6 +111,10 @@ ${linkBtn(
     <blockquote class="press__item">
   <p>&ldquo;... trupa din Timi&#537;oara face parte din categoria restr&acirc;ns&#259; a forma&#539;iilor rom&acirc;ne&#537;ti de thrash metal care pot sta f&#259;r&#259; complexe al&#259;turi de multe dintre numele actuale ale scenei interna&#539;ionale.&rdquo;</p>
   <a href="https://metalfan.ro/2026/07/21/ruyned-profanum-sacrificium/" target="_blank" rel="noopener noreferrer" class="press__source">MetalFan</a>
+</blockquote>
+    <blockquote class="press__item">
+  <p>&ldquo;Ruyned push Black/Speed Metal to the limit.&rdquo;</p>
+  <a href="https://www.mundometalbr.com/ruyned-leva-black-speed-metal-ao-limite-em-profanum-sacrificium/" target="_blank" rel="noopener noreferrer" class="press__source">Mundo Metal (BR)</a>
 </blockquote>
     <a href="https://www.instagram.com/reel/DZqI6mVJ5BQ/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Deaf Sparrow &mdash; Review</a>
   </div>
